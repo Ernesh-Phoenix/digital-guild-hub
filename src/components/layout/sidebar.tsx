@@ -27,14 +27,14 @@ const menuItems = {
     { href: "/profile", icon: Settings, label: "Profile" }
   ],
   instructor: [
-    { href: "/dashboard", icon: Home, label: "Dashboard" },
+    { href: "/instructor/dashboard", icon: Home, label: "Dashboard" },
     { href: "/courses", icon: BookOpen, label: "My Courses" },
     { href: "/create-course", icon: PlusCircle, label: "Create Course" },
     { href: "/students", icon: Users, label: "Students" },
     { href: "/analytics", icon: BarChart3, label: "Analytics" }
   ],
   admin: [
-    { href: "/dashboard", icon: Home, label: "Dashboard" },
+    { href: "/admin/dashboard", icon: Home, label: "Dashboard" },
     { href: "/users", icon: Users, label: "User Management" },
     { href: "/courses", icon: BookOpen, label: "Course Management" },
     { href: "/roles", icon: Shield, label: "Role Management" },
